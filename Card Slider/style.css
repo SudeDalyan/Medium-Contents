@@ -1,0 +1,52 @@
+body {
+    background-image: url('image/background.gif');
+    font-family: 'Roboto';
+}
+
+.slider .card {
+    margin: 50px 30px;
+    background: black;
+    border: 5px #2b2e83;
+    -webkit-box-shadow: 0px 0px 15px 10px #2b2e83;
+    -moz-box-shadow: 0px 0px 15px 10px #2b2e83;
+    box-shadow: 0px 0px 15px 10px #2b2e83;
+}
+
+.slider .card .img {
+    height: 250px;
+    width: 100%;
+}
+
+.slider .card .img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.slider .card .content {
+    padding: 20px 40px;
+}
+
+.card .content .title {
+    font-size: 25px;
+    font: bold;
+    text-align: center;
+    font-weight: 600;
+    color: #2b2e83;
+}
+
+.text {
+    color: white;
+}
+
+.card .content .btn button {
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    text-align: center;
+}
